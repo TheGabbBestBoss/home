@@ -1,9 +1,5 @@
-# home
-
-
-
-<header class="it-header-wrapper">
-  <div class="it-header-slim-wrapper">
+<header class="it-header-wrapper it-shadow">
+  <div class="it-header-slim-wrapper theme-light">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -11,13 +7,13 @@
             <a class="d-none d-lg-block navbar-brand" href="#">Ente appartenenza</a>
             <div class="nav-mobile">
               <nav aria-label="Navigazione secondaria">
-                <a class="it-opener d-lg-none" data-bs-toggle="collapse" href="#menuC1" role="button" aria-expanded="false" aria-controls="menuC1">
+                <a class="it-opener d-lg-none" data-bs-toggle="collapse" href="#menuC2" role="button" aria-expanded="false" aria-controls="menuC2">
                   <span>Ente appartenenza</span>
                   <svg class="icon" aria-hidden="true">
                     <use href="/dist/svg/sprites.svg#it-expand"></use>
                   </svg>
                 </a>
-                <div class="link-list-wrapper collapse" id="menuC1">
+                <div class="link-list-wrapper collapse" id="menuC2">
                   <ul class="link-list">
                     <li><a class="dropdown-item list-item" href="#">Link 1</a></li>
                     <li><a class="list-item active" href="#" aria-current="page">Link 2 (Attivo)</a></li>
@@ -57,7 +53,7 @@
     </div>
   </div>
   <div class="it-nav-wrapper">
-    <div class="it-header-center-wrapper">
+    <div class="it-header-center-wrapper theme-light">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -114,18 +110,18 @@
         </div>
       </div>
     </div>
-    <div class="it-header-navbar-wrapper">
+    <div class="it-header-navbar-wrapper theme-light-desk">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <!--start nav-->
             <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
-              <button class="custom-navbar-toggler" type="button" aria-controls="navC1" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#navC1">
+              <button class="custom-navbar-toggler" type="button" aria-controls="navC2" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#navC2">
                 <svg class="icon">
                   <use href="/dist/svg/sprites.svg#it-burger"></use>
                 </svg>
               </button>
-              <div class="navbar-collapsable" id="navC1" style="display: none;">
+              <div class="navbar-collapsable" id="navC2" style="display: none;">
                 <div class="overlay" style="display: none;"></div>
                 <div class="close-div">
                   <button class="btn close-menu" type="button">
@@ -142,13 +138,13 @@
                     <li class="nav-item"><a class="nav-link" href="#"><span>Link 3</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span>Link 4</span></a></li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="mainNavDropdownC1">
+                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="mainNavDropdownC2">
                         <span>Menu Dropdown</span>
                         <svg class="icon icon-xs">
                           <use href="/dist/svg/sprites.svg#it-expand"></use>
                         </svg>
                       </a>
-                      <div class="dropdown-menu" role="region" aria-labelledby="mainNavDropdownC1">
+                      <div class="dropdown-menu" role="region" aria-labelledby="mainNavDropdownC2">
                         <div class="link-list-wrapper">
                           <div class="link-list-heading">Sezione</div>
                           <ul class="link-list">
@@ -162,13 +158,13 @@
                       </div>
                     </li>
                     <li class="nav-item dropdown megamenu">
-                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="mainNavMegamenuC1">
+                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="mainNavMegamenuC2">
                         <span>Megamenu</span>
                         <svg class="icon icon-xs">
                           <use href="/dist/svg/sprites.svg#it-expand"></use>
                         </svg>
                       </a>
-                      <div class="dropdown-menu" role="region" aria-labelledby="mainNavMegamenuC1">
+                      <div class="dropdown-menu" role="region" aria-labelledby="mainNavMegamenuC2">
                         <div class="row">
                           <div class="col-12 col-lg-4">
                             <div class="link-list-wrapper">
